@@ -91,6 +91,9 @@ nav {
         color: $primaryColor;
         border-radius: 10px;
     }
+    :hover {
+        color: $accentColor;
+    }
 }
 
 

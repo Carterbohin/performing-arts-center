@@ -386,6 +386,9 @@ nav ul li.active a {
   color: #005E75;
   border-radius: 10px;
 }
+nav :hover {
+  color: #07AFC5;
+}
 
 /* --------------------------- MAIN --------------------------- */
 main h1 {
