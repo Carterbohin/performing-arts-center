@@ -137,7 +137,7 @@ section div {
 
 section h2 {
     background-color: $secondaryColor;
-    color: $accentColor;
+    color: $greyColor;
     padding: 10px;
     text-align: center;
     font-weight: $normalWeight;
@@ -146,7 +146,7 @@ section h2 {
 }
 section h3 {
     background-color: $secondaryColor;
-    color: $accentColor;
+    color: $greyColor;
     text-align: center;
     margin: 0px;
     padding: 8px;
@@ -154,7 +154,7 @@ section h3 {
 }
 section  :hover h2,
 section :hover h3 {
-    color: $greyColor;
+    color: $primaryColor;
     
 }
 // end main

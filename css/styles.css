@@ -416,7 +416,7 @@ section div img {
 
 section h2 {
   background-color: #8F6343;
-  color: #07AFC5;
+  color: #FFFFFF;
   padding: 10px;
   text-align: center;
   font-weight: 500;
@@ -426,7 +426,7 @@ section h2 {
 
 section h3 {
   background-color: #8F6343;
-  color: #07AFC5;
+  color: #FFFFFF;
   text-align: center;
   margin: 0px;
   padding: 8px;
@@ -435,7 +435,7 @@ section h3 {
 
 section :hover h2,
 section :hover h3 {
-  color: #FFFFFF;
+  color: #005E75;
 }
 
 /* --------------------------- FOOTER --------------------------- */
