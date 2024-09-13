@@ -308,9 +308,6 @@ html {
 
 .open-sans {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
 }
 
 /*  Apply a natural box layout model to all elements  */
