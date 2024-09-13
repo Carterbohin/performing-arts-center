@@ -370,6 +370,7 @@ nav ul {
   font-size: 500;
   font-weight: 500;
   color: #FFFFFF;
+  text-align: center;
 }
 nav ul li {
   list-style-type: none;
