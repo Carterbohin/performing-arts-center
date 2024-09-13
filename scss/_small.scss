@@ -38,16 +38,18 @@ header {
 header .phone-number {
     grid-column: 3;
     justify-self: end;
+  
+}
+
+.phone-number a:hover {
+    color: $accentColor;
 }
 .phone-number a {
     color: $primaryColor;
     text-decoration: none;
-    padding: 5px 10px;
-    
+    font-weight: $normalWeight;
 } 
-.phone-number a:hover {
-    color: $accentColor;
-}// end header
+// end header
 
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
@@ -60,7 +62,7 @@ nav {
     ul{
         padding: 0;
         margin:0 $gutter;
-        font-weight: 300;
+        font-weight: $normalWeight;
         color: $accentColor;
     }
     ul li {
@@ -78,6 +80,7 @@ nav {
         border-radius: 10px;
     }
 }
+
 
 
 

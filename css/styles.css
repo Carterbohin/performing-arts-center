@@ -342,21 +342,14 @@ header .phone-number {
   justify-self: end;
 }
 
+.phone-number a:hover {
+  color: #D4FBFF;
+}
+
 .phone-number a {
   color: #448890;
   text-decoration: none;
-  font-size: 300;
-  font-weight: bold;
-  align-items: center;
-  padding: 5px 10px;
-  background-color: #C0D8DE;
-  border-radius: 10px;
-}
-
-.phone-number a:hover {
-  color: #D4FBFF;
-  background-color: #8F6343;
-  border-radius: 25px;
+  font-weight: 500;
 }
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
@@ -367,6 +360,8 @@ header .phone-number {
 nav ul {
   padding: 0;
   margin: 0 10px;
+  font-weight: 500;
+  color: #D4FBFF;
 }
 nav ul li {
   list-style-type: none;
