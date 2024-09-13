@@ -43,14 +43,10 @@ header .phone-number {
     color: $primaryColor;
     text-decoration: none;
     padding: 5px 10px;
-    background-color: $greyColor;
-    border-radius: 10px;
     
 } 
 .phone-number a:hover {
     color: $accentColor;
-    background-color: $secondaryColor;
-    border-radius: 25px;
 }// end header
 
 
@@ -64,6 +60,8 @@ nav {
     ul{
         padding: 0;
         margin:0 $gutter;
+        font-weight: 300;
+        color: $accentColor;
     }
     ul li {
         list-style-type: none;
