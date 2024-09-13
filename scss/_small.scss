@@ -3,7 +3,17 @@ html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
 
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+   
+  }
+  
 /*  Apply a natural box layout model to all elements  */
 * {
     -moz-box-sizing: border-box;
@@ -62,8 +72,9 @@ nav {
     ul{
         padding: 0;
         margin:0 $gutter;
+        font-size: 500;
         font-weight: $normalWeight;
-        color: $accentColor;
+        color: $greyColor;
     }
     ul li {
         list-style-type: none;
